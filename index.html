@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tween</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Template-1</title>
+  <!-- main css -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <!-- normalize css -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <!-- google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;0,600;1,300&amp;display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- Start Header -->
+  <div class="layout">
+    <div class="header">
+      <div class="nav">
+        <div class="logo">
+          <a href="#"><i class="fa-solid fa-layer-group"></i>
+            <h2> Tween</h2>
+          </a>
+        </div>
+        <div class="links">
+          <div class="menu">
+            <i class="fas fa-bars toggle-menu"></i>
+            <ul>
+              <li><a href="#" class="active">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#our-work">Our Work</a></li>
+              <li><a href="#pricing">Pricing</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <a href="javascript:setDarkMode()"><img src="css/images/moon.png" id="dark-mode-icon" width="50px"
+                  style="background:white; border-radius: 100%;"> </a>
+            </ul>
+          </div>
+          <div class="download">
+            <a href="#">
+              <h3>Download</h3> <i class="fa-solid fa-download"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  <!-- End Header -->
+  <!-- Start Landing -->
+  <div class="landing">
+    <div class="overlay">
+      <div class="text">
+        <p>We are ready to serve for <br> your digital marketing</p>
+      </div>
+    </div>
+  </div>
+  <!-- End Landing -->
+  <!-- Start About -->
+  <div class="about" id="about">
+    <div class="about-header">
+      <div class="heading">
+        <h1>
+          Digital Happiness
+        </h1>
+      </div>
+      <div class="links">
+        <ul>
+          <li><button class="active" id="1" onclick="setActive(this.id)">Introduction</button></li>
+          <li><button id="2" onclick="setActive(this.id)">Profile</button></li>
+          <li><button id="3" onclick="setActive(this.id)">FAQs</button></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <div class="image" id="img1">
+        <img src="css/images/about1.jpg" alt="">
+      </div>
+
+      <div class="text" id="text1">
+        <h2>Brand Creation</h2>
+        <p>We want you to be happy with our Tween Agency services. Our digital agency is ready to serve you to grow your
+          business in a healthy way.</p>
+        <p>This is Bootstrap 5 HTML template for your website provided by Tooplate. You can download, edit and use this
+          layout for your company website.
+        </p>
+        <p>Image credits go to FreePik and Unsplash for images used in this template. We really appreciate these stock
+          image websites for providing free photos to everyone.
+        </p>
+
+      </div>
+      <div class="text" id="text2" style="display:none"> <!-- Add Profile text here -->
+        <h2>Marie Smarty, CEO</h2>
+        <p>Our priority is your happiness working together with us. We guarantee you the best service quality from us.
+          Feel free to talk to us via email, twitter, or linkedin.</p>
+        <div class="info">
+          <p>Where to find?</p>
+          <div class="social_icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="image" id="img2" style="display:none">
+        <img src="css/images/about2.jpg" alt=""> <!-- Add Profile image here -->
+      </div>
+
+      <div class="image" id="img3" style="display:none">
+        <img src="css/images/about3.jpg" alt=""> <!-- Add FAQ image here -->
+      </div>
+      <div class="text" id="text3" style="display:none"> <!-- Add FAQ text here -->
+        <h3>Frequenlty Asked Questions</h3>
+        <div class="faq">
+          <h4>What is Tween Agency?</h>
+            <p>Tween Agency is free HTML template powered by Bootstrap 5 CSS framework. This means you can use all
+              standard CSS classes provided by Bootstrap version 5 to customize your CSS layout. You are allowed to use
+              it for your clients. You are not allowed to redistribute this template ZIP file on any other template
+              website. Please contact Tooplate for more info.</p>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+  <!-- End About -->
+  <!-- Start Servives -->
+  <div class="services" id="services">
+    <div class="main-heading">
+      <h1>
+        Digital Services
+      </h1>
+    </div>
+    <div class="container">
+      <div class="card">
+        <img src="css/images/serv1.svg" alt="" class="blue">
+      </div>
+      <div class="card">
+        <div class="text">
+          <h2>UI Design</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing industry</p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+      <div class="card">
+
+        <img src="css/images/serv5.svg" alt="" class="yellow">
+      </div>
+      <div class="card">
+        <div class="text">
+          <h2>Marketing</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing industry</p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="css/images/serv3.svg" alt="" class="green">
+      </div>
+      <div class="card">
+        <div class="text">
+          <h2>Ecommerce</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing industry</p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Servives -->
+  <!-- Start Our Work -->
+  <div class="our-work" id="our-work">
+    <div class="main-heading">
+      <h1>
+        Selected Projects
+      </h1>
+    </div>
+    <div class="container">
+      <div class="column">
+        <div class="card">
+          <div class="image">
+            <a href="css/images/burger.jpg" target="_blank">
+              <img src="css/images/burger.jpg" alt=""></a>
+            <div class="text">
+              <div class="parent">
+                <div class="child">
+                  <p>Art Direction</p>
+                </div>
+                <h2>Simple Burger</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="image">
+            <a href="css/images/project4.jpg" target="_blank">
+              <img src="css/images/project4.jpg" alt=""></a>
+
+            <div class="text">
+              <div class="parent">
+                <div class="child">
+                  <p>Design</p>
+                </div>
+                <h2>Fitness</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <div class="image">
+            <a href="css/images/project2.jpg" target="_blank">
+              <img src="css/images/project2.jpg" alt="">
+            </a>
+            <div class="text">
+              <div class="parent">
+                <div class="child">
+                  <p>Web Development</p>
+                </div>
+                <h2>Data Science</h2>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="card">
+          <div class="image">
+            <a href="css/images/project5.jpg" target="_blank">
+              <img src="css/images/project5.jpg" alt=""></a>
+
+            <div class="text">
+              <div class="parent">
+                <div class="child">
+                  <p>Branding</p>
+                </div>
+                <div class="child2">
+                  <p>Graphic Design</p>
+                </div>
+                <h2>Health</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <div class="image">
+            <a href="css/images/project3.jpg" target="_blank">
+              <img src="css/images/project3.jpg" alt="">
+            </a>
+            <div class="text">
+              <div class="parent">
+                <div class="child">
+                  <p>Photography</p>
+                </div>
+                <h2>Portraits</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mail">
+          <p>If you are interested in working together, Say Hi at
+            <a href="mailto:hi@company.com">hi@company.com</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Our Work -->
+  <!-- Start Pricing -->
+  <div class="pricing" id="pricing">
+    <div class="main-heading">
+      <h1>
+        Tween Marketing Plans
+      </h1>
+    </div>
+    <div class="container">
+      <div class="plan" data-progress="Recommended Plan">
+        <div class="head">
+          <div class="logo">
+            <i class="fa-regular fa-user"></i>
+            <h2>Sufficient</h2>
+          </div>
+          <span>$4,600</span>
+        </div>
+        <div class="body">
+          <h3>Managed Features</h3>
+          <ul>
+            <li>Fully Digital</li>
+            <li>Social Media Managements</li>
+            <li>Website Optimizations</li>
+            <li>24/7 Phone Calls and Emails</li>
+          </ul>
+          <div class="text">
+            <h3>Small to Mid-size Businesses</h3>
+            <p>Everything you need for your digital marketing stuffs</p>
+          </div>
+        </div>
+      </div>
+      <div class="plan" data-progress="Ecommerce Plan" height="90%" style="height: 80%;">
+        <div class="head">
+          <div class="logo">
+            <i class="fa-solid fa-briefcase"></i>
+            <h2>Complete</h2>
+          </div>
+          <span>$8,200</span>
+        </div>
+        <div class="body">
+          <h3>Fully Featured Work</h3>
+          <ul>
+            <li>Completely Digital</li>
+            <li>Everything managed online</li>
+            <li>Full Ecommerce Features</li>
+            <li>24/7 Instant Video Chats</li>
+          </ul>
+          <div class="text">
+            <h3>High-end Ecommerce Websites</h3>
+            <p>Fit for your company and ecommerce related stuffs</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Pricing -->
+  <!-- Start Contact -->
+  <div class="contact" id="contact">
+    <div class="main-heading">
+      <h1>
+        Let's chat
+      </h1>
+    </div>
+    <form action="" class="container">
+      <div class="form">
+        <div class="column">
+          <label for="name">Full Name</label>
+          <input type="text" class="name" placeholder="Enter your name" required>
+        </div>
+        <div class="column">
+          <label for="mail">Email Address</label>
+          <input type="mail" class="mail" placeholder="Enter your e-mail" required>
+        </div>
+        <div class="column">
+          <label for="subject">How did you know about us?</label>
+          <select name="subject" id="subject" required>
+            <option selected>Choose a subject</option>
+            <option value="web+search">Website Searches</option>
+            <option value="social+media">Social Media</option>
+            <option value="others">Others</option>
+          </select>
+        </div>
+      </div>
+      <div class="text">
+        <label for="message">Tell us about the project</label>
+        <textarea name="message" class="main-input" placeholder="Your Massage"></textarea>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <!-- End Contact -->
+  <!-- Start Footer -->
+  <div class="footer">
+    <div class="container">
+      <div class="body">
+        <div class="subscribe">
+          <h2>Newsletter</h2>
+          <div class="info">
+            <div class="input">
+              <input type="text" placeholder="Your email address">
+            </div>
+            <button type="submit">Subscribe</button>
+          </div>
+        </div>
+        <div class="column">
+          <div class="serv-list">
+            <h2>Services</h2>
+            <ul>
+              <li><a href="#">Digital Marketing</a></li>
+              <li><a href="#">Creative Ideas</a></li>
+              <li><a href="#">Branding</a></li>
+              <li><a href="#">Video Contents</a></li>
+            </ul>
+          </div>
+          <div class="hi">
+            <h2>Say Hi</h2>
+            <p>Sunderland SR6 0JL, United Kingdom</p>
+            <a href="mailto:email@company.com">email@company.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <p class="copyright">Copyright &copy;2022 <span>Tween</span> All Right Reserved</p>
+      <div class="social_icons">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+    <!-- End Footer -->
+
+    <script src="js/main.js"></script>
+    <script src="js/darkmode.js"></script>
+
+</body>
+
+</html>
