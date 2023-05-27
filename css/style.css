@@ -1112,7 +1112,7 @@
      flex-direction: column;
    }
 
-   contact .form .column select {
+   .contact .form .column select {
      display: none !important;
    }
 

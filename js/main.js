@@ -42,3 +42,7 @@ function setActive(id) {
     }
   
 }
+
+let year = document.querySelector(' .footer .copyright span:nth-child(1)')
+
+year.textContent=new Date().getFullYear()
