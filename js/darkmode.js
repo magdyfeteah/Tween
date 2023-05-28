@@ -3,9 +3,9 @@ function setDarkMode() {
     element.classList.toggle("dark-mode");
 
     if (element.classList.contains("dark-mode")) {
-        document.getElementById("dark-mode-icon").src = "css/images/sun.png";
+        document.getElementById("dark-mode-icon").src = "css/images/sun.svg";
     } else {
-        document.getElementById("dark-mode-icon").src = "css/images/moon.png";
+        document.getElementById("dark-mode-icon").src = "css/images/moon.svg";
     }
     
 }
